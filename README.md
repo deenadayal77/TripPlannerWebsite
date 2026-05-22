@@ -1,7 +1,7 @@
 # TripPlannerWebsite
 
 # Live Demo
-https://tripplannerwebsite-yvkh.onrender.com/
+https://tripplannerwebsite-h6jg.onrender.com/
 
 # Features
 - User registration/login

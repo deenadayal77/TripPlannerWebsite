@@ -15,7 +15,6 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     ".onrender.com",
-    "tripplannerwebsite-yvkh.onrender.com",
     "tripplannerwebsite-h6jg.onrender.com",
 ]
 

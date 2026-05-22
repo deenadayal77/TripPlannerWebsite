@@ -31,5 +31,4 @@ python manage.py seed_demo_data
 python manage.py runserver
 ```
 
-Open https://tripplannerwebsite-yvkh.onrender.com/
-
+Open https://tripplannerwebsite-h6jg.onrender.com/
