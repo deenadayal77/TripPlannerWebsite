@@ -2,18 +2,21 @@
 Django settings for the tripplanner project.
 """
 
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "django-insecure-change-this-secret-key-before-deployment"
+SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-change-this-secret-key-before-deployment")
 
-DEBUG = True
+DEBUG = os.environ.get("DEBUG", "True") == "True"
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
+    ".onrender.com",
     "tripplannerwebsite-yvkh.onrender.com",
+    "tripplannerwebsite-h6jg.onrender.com",
 ]
 
 INSTALLED_APPS = [
